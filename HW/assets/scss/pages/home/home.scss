@@ -870,6 +870,12 @@ $lora-font-family: Lora,serif;
 @media only screen and  (max-width: 767px){
     #photo-p{
         .words-part{
+            h2{
+                font-size: 40px !important;
+                span{
+                    font-size: 40px !important;
+                }
+            }
             p{
                 display: none;
             }
@@ -885,6 +891,16 @@ $lora-font-family: Lora,serif;
                     object-fit: cover;
                     width: 100%;
                     
+                }
+            }
+        }
+    }
+
+    #valentine{
+        .container{
+            .left-part{
+                i{
+                    left: 200px;
                 }
             }
         }
@@ -922,11 +938,12 @@ $lora-font-family: Lora,serif;
     }
 
     #subscribe{
-        .subs{
+        .container-fluid{
             .words-part{
                 .input-type{
                     input{
-                        padding-right: 80px;
+                        padding-right: 70px !important;
+                        
                     }
                     button{
                         padding-left: 10px;
@@ -943,6 +960,9 @@ $lora-font-family: Lora,serif;
                 h6{
                     width: 250px;
                 }
+                .icons-part{
+                    display: none;
+                }
             }
         }
     }
@@ -952,7 +972,7 @@ $lora-font-family: Lora,serif;
             .up-part{
                 display: flex;
                 flex-direction: column;
-                margin-left: 50px;
+                margin-left: 0px !important;
                 .each-part{
                     margin-bottom: 40px;
                 }

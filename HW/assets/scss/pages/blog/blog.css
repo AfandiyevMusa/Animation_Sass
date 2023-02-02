@@ -474,6 +474,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 0px !important;
 }
 
 #footer-part .container .up-part .each-part {
@@ -692,15 +693,14 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  #main-part .container .row .all .box i {
-    top: 130px;
-    left: 180px;
-  }
   #main-part .container .row .right-part h2 {
     width: 200px;
   }
   #main-part .container .row .right-part .search-part {
-    width: 270px;
+    width: 300px;
+  }
+  #main-part .container .row .right-part .search-part i {
+    left: 260px;
   }
   #main-part .container .row .right-part .news .each-l-card .words {
     width: 200px;
@@ -771,17 +771,14 @@
   #main-part .container .row .each-card {
     width: 100%;
   }
-  #main-part .container .right-part h2 {
+  #main-part .container .row .right-part h2 {
     width: 200px;
   }
-  #main-part .container .right-part .search-part {
-    width: 270px;
+  #main-part .container .row .right-part .search-part {
+    width: 470px;
   }
-  #main-part .container .right-part .news .each-l-card .words {
-    width: 200px;
-  }
-  #main-part .container .right-part .start-now {
-    margin-bottom: 50px;
+  #main-part .container .row .right-part .search-part i {
+    left: 430px;
   }
 }
 /*# sourceMappingURL=blog.css.map */

@@ -959,6 +959,12 @@
 }
 
 @media only screen and (max-width: 767px) {
+  #photo-p .words-part h2 {
+    font-size: 40px !important;
+  }
+  #photo-p .words-part h2 span {
+    font-size: 40px !important;
+  }
   #photo-p .words-part p {
     display: none;
   }
@@ -970,6 +976,9 @@
     -o-object-fit: cover;
        object-fit: cover;
     width: 100%;
+  }
+  #valentine .container .left-part i {
+    left: 200px;
   }
   #experts .container .up-part p {
     margin-left: 50px;
@@ -983,15 +992,18 @@
     bottom: 410px;
     right: 130px !important;
   }
-  #subscribe .subs .words-part .input-type input {
-    padding-right: 80px;
+  #subscribe .container-fluid .words-part .input-type input {
+    padding-right: 70px !important;
   }
-  #subscribe .subs .words-part .input-type button {
+  #subscribe .container-fluid .words-part .input-type button {
     padding-left: 10px;
     padding-right: 10px;
   }
   #person .container .each-card h6 {
     width: 250px;
+  }
+  #person .container .each-card .icons-part {
+    display: none;
   }
   #footer-part .container .up-part {
     display: -webkit-box;
@@ -1001,7 +1013,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-left: 50px;
+    margin-left: 0px !important;
   }
   #footer-part .container .up-part .each-part {
     margin-bottom: 40px;

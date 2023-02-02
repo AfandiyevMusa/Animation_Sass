@@ -443,6 +443,7 @@ $lora-font-family: 'Rambla', sans-serif;
         flex-direction: column;
         .up-part{
             display: flex;
+            margin-left: 0px !important;
             .each-part{
                 font-size: 12px;
                 font-family: $main-font-family;
@@ -635,19 +636,16 @@ $lora-font-family: 'Rambla', sans-serif;
                             flex-direction: column;
                         }
                     }
-                    .box{
-                        i{
-                            top: 130px;
-                            left: 180px;
-                        }
-                    }
                 }
                 .right-part{
                     h2{
                         width: 200px;
                     }
                     .search-part{
-                        width: 270px;
+                        width: 300px;
+                        i{
+                            left: 260px;
+                        }
                     }
                     .news{
                         .each-l-card{
@@ -724,25 +722,19 @@ $lora-font-family: 'Rambla', sans-serif;
                     .each-card{
                         width: 100%;
                     }
-                }
+                
                 .right-part{
                     h2{
                         width: 200px;
                     }
                     .search-part{
-                        width: 270px;
-                    }
-                    .news{
-                        .each-l-card{
-                            .words{
-                                width: 200px;
-                            }
+                        width: 470px;
+                        i{
+                            left: 430px;
                         }
                     }
-                    .start-now{
-                        margin-bottom: 50px;
-                    }
                 }
+            }
         }
     }
 }
